@@ -1,0 +1,92 @@
+{
+	"product" : [
+		{
+			"nav" : {
+				"id" : "nav",
+				"slot" : 1,
+				"name" : "Norton™ Antivirus",
+				"boxshot" : "//buy-static.norton.com/norton/ps/images/boxshot_nav_2013_sml.png",
+				"mediumBoxshot" : "//buy-static.norton.com/norton/ps/images/boxshot_nav_2013_med.png",
+				"largeBoxshot" : "//buy-static.norton.com/norton/ps/images/boxshot_nav_2013_lrg.png",
+				"description" : "Basic protection that stops viruses and spyware",
+				"productFamily" : "nav",
+				"entitlement" : "1-Year Protection",
+				"awards" : ["//buy-static.com", "//google.com", "yahoo.com"],
+				"CTA" : {
+					"purchase" : {
+						"oneYear" : {	
+							"show" : 1,
+							"addToCart" : "//buy.norton.com/ps?selSKU=21294070&ctry=US&lang=en&tppc=PL_100&ptype=cart",
+							"buyButtonImg" : "//buy-static.norton.com/norton/ps/images/btn-right.png",
+							"buyButtonText" : "1-year Download",
+							"showPrice" : 1,
+							"price" : "$49.99",
+							"priceValue" : 49.99,
+							"showMsrp" : 0,
+							"msrp" : "$89.99",
+							"msrpValue" : 89.99,
+							"showMessage" : 0,
+							"savingsMessage" : "Save now",
+							"savingsAmount" : 10,
+							"savingPercentage" : 50,
+							"pdLink" : "http://buy.norton.com/ps?selSKU=21294070&ctry=US&lang=en&tppc=PL_100&ptype=pd",
+							"selectedSKU" : 21294070,
+							"seatCount" : "Windows 8/7/XP/Vista. Up to 3 household PCs",
+							"trackingParams" : "&om_sem_cid=hho_sem_sy:us:ggl:en:e|kw0000159461|27024706636|c&country=US"
+						},
+						"twoYear" : {	
+							"show" : 1,
+							"addToCart" : "//buy.norton.com/ps?selSKU=21294123&ctry=US&lang=en&tppc=PL_100&ptype=cart",
+							"buyButtonImg" : "//buy-static.norton.com/norton/ps/images/btn-left.png",
+							"buyButtonText" : "2-year Download",
+							"showPrice" : 0,
+							"price" : "$74.99",
+							"priceValue" : 74.99,
+							"showMsrp" : 0,
+							"msrp" : "$89.99",
+							"msrpValue" : 89.99,
+							"showMessage" : 0,
+							"savingsMessage" : "Save 20 now",
+							"savingsAmount" : 20,
+							"savingPercentage" : 30,
+							"pdLink" : "http://buy.norton.com/ps?selSKU=21294123&ctry=US&lang=en&tppc=PL_100&ptype=pd",
+							"selectedSKU" : 21294123,
+							"seatCount" : "Windows 8/7/XP/Vista. Up to 3 household PCs",
+							"trackingParams" : "&ctry=US&lang=en"
+						},
+						"threeYear" : {
+							"show" : 0,	
+							"addToCart" : "//buy.norton.com/ps?selSKU=21292843&ctry=US&lang=en&tppc=40D6AFAE-BDE9-F3B2-3561-EE09618FFC5D&ptype=cart&om_sem_cid=hho_sem_sy:us:ggl:en:b|kw0000002452|28399098796|c&country=US",
+							"buyButtonImg" : "//buy-static.norton.com/norton/ps/images/btn-left.png",
+							"buyButtonText" : "3-year Download",
+							"showPrice" : 1,
+							"price" : "$zz.99",
+							"priceValue" : 89.99,
+							"showMsrp" : 0,
+							"msrp" : "$zz.99",
+							"msrpValue" : 89.99,
+							"showMessage" : 0,
+							"savingsMessage" : "Save 0 now",
+							"savingsAmount" : 0,
+							"savingPercentage" : 0,
+							"pdLink" : "//buy.norton.com/ps?selSKU=21292843&ctry=US&lang=en&tppc=40D6AFAE-BDE9-F3B2-3561-EE09618FFC5D&ptype=pd&om_sem_cid=hho_sem_sy:us:ggl:en:b|kw0000002452|28399098796|c&country=US",
+							"selectedSKU" : 21292843,
+							"seatCount" : "Windows 8/7/XP/Vista. Up to 3 household PCs",
+							"trackingParams" : "&ctry=US&lang=en"
+						}
+					},
+					"download" : {
+						"show" : 0,
+						"downloadImg" : "//buy-static.norton.com/norton/ps/images/btn-right.png",
+						"downloadText" : "Try Now",
+						"downloadLink" : "http://buy.norton.com/ps?ctry=US&lang=EN&selSKU=21292818&om_sem_cid=hho_sem_sy:us:ggl:en:b|kw0000002452|28399098796|c&country=US",
+						"entitlement" : "30-Day Free Trial",
+						"savingsMessage" : "FREE",
+						"selectedSKU" : 21292818,
+						"trackingParams" : "?ctry=US&lang=EN&selSKU=21292818&om_sem_cid=hho_sem_sy:us:ggl:en:b|kw0000002452|28399098796|c&country=US"
+					}
+				}
+			}
+		}
+	]
+}

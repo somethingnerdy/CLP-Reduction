@@ -1,0 +1,19 @@
+<section>
+	<div class="topGradient">
+		<div class="productBoxshot">
+		<h1>hi there</h1>
+		<% if (products.length == 1) { %>
+			<% products.forEach(function(product){ %>
+				<%= product.name %>
+			<% })%>
+		<% } else {%>
+			<% products.forEach(function(product){ %>
+				<% product.forEach(function(item) { %>
+					<p><%= item.name %></p>
+				<%})%>
+			<% }) %>
+		<% }%>
+			
+		
+		<div>
+</section>

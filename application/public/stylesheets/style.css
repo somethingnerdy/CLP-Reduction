@@ -1,0 +1,644 @@
+body {
+  padding: 50px;
+  background-color: #ddd !important;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+header.branding {
+    margin-top: 0px !important;
+    padding-top: 25px;
+}
+ul.socialLinks{
+	padding-top: 20px !important;
+}
+.nav h1 span{
+	top:0px !important;
+}
+.product {
+    float: left;
+    margin-left: 9px;
+    width: 305px;
+}
+.product .desc {
+    background: url("//buy-static.norton.com/norton/ps/images/bg-mast.gif") repeat-x scroll center bottom rgba(0, 0, 0, 0);
+    float: left;
+    height: 155px;
+    overflow: visible;
+    position: relative;
+    width: 100%;
+    z-index: 50;
+}
+.product .desc img {
+    left: 15px;
+    position: absolute;
+    top: 30px;
+    z-index: 100;
+}
+.product.av .desc h1 {
+    font-size: 22px;
+}
+.product .desc h1 {
+    font-weight: bold;
+    margin-left: 123px;
+    padding-top: 25px;
+    width: 175px;
+}
+.product .desc p {
+    color: #666666;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 0 0 0 123px;
+    padding: 8px 0;
+}
+.product .pricing {
+    height: 182px;
+    padding: 0 0 20px;
+}
+.product .pricing {
+    background: none repeat scroll 0 0 #FDF8E5;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.product .pricing p.specs {
+    padding-bottom: 20px;
+}
+.product .pricing p.specs {
+    color: #999999;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 11px;
+    padding: 30px 0 0 20px;
+}
+.product .pricing .btn {
+    margin-left: 20px;
+}
+.product .pricing .btn {
+    background: url("//buy-static.norton.com/norton/ps/images/btn-left.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    color: #000000;
+    float: left;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 36px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+a {
+    text-decoration: none;
+}
+.product .pricing .btn span {
+    text-indent: 22px;
+    width: 115px;
+}
+.product .pricing .btn span {
+    background: url("//buy-static.norton.com/norton/ps/images/btn-right.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+    cursor: pointer;
+    float: left;
+    line-height: 36px;
+    padding-right: 20px;
+    text-shadow: 0 0 10px #FFFFFF;
+    width: 145px;
+}
+.product .pricing .price.old {
+    color: #999999;
+    left: 180px;
+    position: absolute;
+    text-decoration: line-through;
+    top: 50px;
+}
+.product .pricing .price.new {
+    color: #990000;
+    font-size: 18px;
+    font-weight: bold;
+    left: 180px;
+    position: absolute;
+    top: 68px;
+}
+.product .pricing .sale {
+    background: none repeat scroll 0 0 #990000;
+    color: #FFFFFF;
+    float: right;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px;
+    position: absolute;
+    right: 40px;
+    text-transform: uppercase;
+    top: 95px;
+    white-space: nowrap;
+}
+.product .pricing .term {
+    clear: left;
+    float: left;
+    line-height: 25px;
+    text-align: center;
+    text-indent: 20px;
+    width: 155px;
+}
+.product .pricing .price {
+    color: #666666;
+    font-size: 18px;
+    font-weight: bold;
+    left: 200px;
+    line-height: normal;
+    position: absolute;
+    top: 65px;
+}
+.product .support {
+    background: url("//buy-static.norton.com/norton/ps/images/bg-support.gif") repeat-x scroll center top #FFFFFF;
+    display: inline-block;
+    height: 34px;
+    overflow: hidden;
+    width: 100%;
+}
+.product .support p {
+    background: url("//buy-static.norton.com/norton/ps/images/icn-support.png") no-repeat scroll 10px 9px rgba(0, 0, 0, 0);
+    display: inline;
+    float: left;
+    font-size: 13px;
+    line-height: 34px;
+    margin-left: 5px;
+    padding-left: 32px;
+}
+.product .support p strong {
+    font-size: 15px;
+    font-weight: bold;
+}
+.product .support p strong span {
+    color: #CC0000;
+}
+
+
+
+.productSection{
+    float: left;
+    margin-left: 9px;
+    width: 305px;
+}
+.productSectionMedium{
+    float: left;
+    margin-left: 9px;
+    width: 465px;
+}
+.topGradient{
+    background: url("//buy-static.norton.com/norton/ps/images/bg-mast.gif") repeat-x scroll center bottom rgba(0, 0, 0, 0);
+    float: left;
+    min-height: 155px;
+    overflow: visible;
+    position: relative;
+    width: 100%;
+    z-index: 50;
+}
+.productBoxshot{
+    float:left;
+}
+.productBoxshot img{
+    position : relative;
+        left : 15px;
+        top : 30px;
+        z-index : 100;
+}
+.productDetails{
+    float: left;
+    margin-left: 20px;
+    overflow: visible;
+    padding-top: 25px;
+    position: relative;
+    text-align: left;
+    width: 190px;
+}
+.productDetails .name{
+    font-weight: bold;
+    font-size : 20px;
+    margin-bottom: 5px;
+}
+.productDetails .description{
+    font-size: 13px;
+    line-height: 15px;
+    color : #666666;
+}
+.bottomGradient{
+    background: none repeat scroll 0 0 #FDF8E5;
+    float:left;
+    position: relative;
+    width:100%;
+    padding: 0 0 20px;
+    min-height: 193px;
+}
+.autoAddContainer {
+    height: 35px;
+    margin: 13px auto 0;
+    position: relative;
+    width: 100%;
+    padding-bottom: 15px;
+}
+.autoAdd_checkBox {
+    float: left;
+    margin: 14px 0 5px 17px;
+    width: 20px;
+}
+.autoAdd_checkBoxText {
+    color: #333333;
+    float: left;
+    margin: 18px 0 5px 5px;
+    font-size: 12px;
+}
+.infoIcon {
+    float: left;
+    margin: 16px 0 5px 5px;
+}
+.toolTip1, .toolTip2, .toolTip3 {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 2px 2px 5px #CCCCCC;
+    color: #545454;
+    font-size: 12px;
+    left: 15px;
+    line-height: 16px;
+    padding: 6px 10px;
+    position: absolute;
+    text-align: left;
+    top: -143px;
+    width: 265px;
+    z-index: 9999;
+}
+#ttimg {
+    bottom: -15px;
+    left: 254px;
+    position: absolute;
+    transform: rotate(-180deg);
+}
+.CTApurchase{
+    height:65px;
+}
+.CTApurchase .buyButton{
+    float:left;
+}
+.CTApurchase .buyButton a{
+     background: url("//buy-static.norton.com/norton/ps/images/btn-left.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    color: #000000;
+    float: left;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 36px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+.CTApurchase .buyButton a:hover{
+    color:#663300;
+}
+.CTApurchase .buyButton a span{
+    background: url("//buy-static.norton.com/norton/ps/images/btn-right.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+    cursor: pointer;
+    float: left;
+    line-height: 36px;
+    padding-right: 20px;
+    text-shadow: 0 0 10px #FFFFFF;
+    width: 145px;
+}
+.CTApurchase .price{
+    color: #006600;
+    font-size: 18px;
+    line-height: 36px;
+    margin-left: 10px;
+
+}
+.CTAdownload{
+    height:65px;
+}
+.CTAdownload .buyButton{
+    float:left;
+}
+.CTAdownload .buyButton a{
+     background: url("//buy-static.norton.com/norton/ps/images/btn-left.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    color: #000000;
+    float: left;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 36px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+.CTAdownload .buyButton a:hover{
+    color:#663300;
+}
+.CTAdownload .buyButton a span{
+    background: url("//buy-static.norton.com/norton/ps/images/btn-right.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+    cursor: pointer;
+    float: left;
+    line-height: 36px;
+    padding-right: 20px;
+    text-shadow: 0 0 10px #FFFFFF;
+    width: 145px;
+}
+.CTAdownload .price{
+    color: #006600;
+    font-size: 18px;
+    line-height: 36px;
+    margin-left: 25px;
+    float:left;
+}
+.priceMsrp{
+    float:left;
+    margin-left: 15px;
+}
+.priceMsrp .msrp{
+    color:#999;
+    font-size:13px;
+    line-height: 3px;
+    text-decoration: line-through;
+}
+.priceMsrp .price{
+    color: #990000;
+    font-weight: bold;
+    font-size:18px;
+    line-height: 27px;
+}
+.btn {
+    background: url("//buy-static.norton.com/norton/ps/images/btn-left.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    color: #000000;
+    float: left;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 36px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.savingsMsg{
+    background: none repeat scroll 0 0 #990000;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px;
+    margin-left:10px;
+}
+.support{
+    background: url("//buy-static.norton.com/norton/ps/images/bg-support.gif") repeat-x scroll center top #FFFFFF;
+    display: inline-block;
+    height: 34px;
+    overflow: hidden;
+    width: 100%;
+}
+.support p {
+    background: url("//buy-static.norton.com/norton/ps/images/icn-support.png") no-repeat scroll 10px 9px rgba(0, 0, 0, 0);
+    display: inline;
+    float: left;
+    font-size: 13px;
+    line-height: 34px;
+    margin-left: 5px;
+    padding-left: 32px;
+}
+.support p strong {
+    font-size: 15px;
+    font-weight: bold;
+}
+.support p strong span {
+    color: #CC0000;
+}
+.prodCompare {
+    border-collapse: collapse;
+    clear: left;
+    display: table;
+    margin: 10px;
+    width: 98%;
+}
+.prodCompare th {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #CCCCCC;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 4px;
+    vertical-align: middle;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+.prodCompare .featureRow .title {
+    background: none repeat scroll 0 0 #FFF5D1;
+    color: #666666;
+    font-weight: bold;
+}
+.prodCompare td {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 4px;
+}
+.prodCompare .featureRow .titleBlank {
+    background: none repeat scroll 0 0 #FFF5D1;
+}
+.prodCompare .feature .title {
+    color: #666666;
+    font-size: 11px;
+}
+.prodCompare td {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 4px;
+}
+.prodCompare .feature .checkmark {
+    text-align: center;
+}
+.prodCompare .titleRow .legal {
+    border-bottom: 0 none;
+    border-left: 0 none;
+    color: #999999;
+    font-size: 11px;
+    vertical-align: middle;
+}
+.prodCompare .titleRow .prodName {
+    background: none repeat scroll 0 0 #EEEEEE;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.prodCompare .buttonRow .legal {
+    border-bottom: 0 none;
+    border-left: 0 none;
+    border-top: 0 none;
+    color: #999999;
+}
+.prodCompare .buttonRow td {
+    vertical-align: top;
+}
+.prodCompare .buttonRow .btn.first {
+    margin-bottom: 15px;
+}
+.prodCompare .buttonRow .btn {
+    background: url("//buy-static.norton.com/norton/ps/images/btn-left-sml.gif") no-repeat scroll left center rgba(0, 0, 0, 0);
+    clear: left;
+    color: #000000;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    padding-left: 10px;
+}
+.prodCompare .buttonRow .btn span {
+    width: 70px;
+}
+.prodCompare .buttonRow .btn span {
+    background: url("//buy-static.norton.com/norton/ps/images/btn-right-sml.gif") no-repeat scroll right center rgba(0, 0, 0, 0);
+    cursor: pointer;
+    float: left;
+    line-height: 24px;
+    padding-right: 10px;
+    text-shadow: 0 0 10px #FFFFFF;
+    width: 125px;
+}
+.sf-menu ul {
+    position: absolute;
+    top: -999em;
+    width: 16em !important;
+}
+
+
+
+#foldTop .col1 h1 {
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    margin-top: 15px;
+    width: 350px;
+}
+#foldTop .col1 h1 .sup {
+    vertical-align: top;
+}
+.sale {
+    background: none repeat scroll 0 0 #990000;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px;
+    position: absolute;
+    right: 34px;
+    text-transform: uppercase;
+    top: 80px;
+    white-space: nowrap;
+}
+.price.new {
+    color: #990000;
+    font-size: 18px;
+    font-weight: bold;
+    left: 805px;
+    position: absolute;
+    top: 48px;
+}
+#foldTop .col2 ul li .term {
+    margin-left: 45px;
+}
+#foldBtm .award {
+    float: left;
+    margin: 45px 90px 10px;
+}
+#foldTop .col1 h1 .new {
+    margin: -20px 150px 0 0;
+}
+#foldTop .col2 .price.old {
+    color: #666666;
+    font-size: 12px;
+    position: absolute;
+    right: 80px;
+    text-decoration: line-through;
+    top: 30px;
+    white-space: nowrap;
+}
+#foldBtm .awards {
+    float: left;
+    margin: 70px 90px 0 110px;
+}
+#foldBtm #test ul li .new {
+    color: #990000;
+    font-size: 11px;
+    font-weight: bold;
+    left: -29px;
+    position: absolute;
+    text-align: left;
+    text-transform: uppercase;
+    top: 0;
+}
+#foldBtm ul {
+    float: left;
+    padding: 0 0 40px 5px;
+    width: 350px;
+}
+#foldTop .col2 .btn {
+    font-size: 17px;
+}
+#foldTop .col2 ul li .price {
+    font-size: 17px;
+}
+#foldTop .col2 p {
+    display: inline;
+    float: left;
+    font-size: 14px;
+    margin: 25px 0 15px 15px;
+}
+.macMast {
+    background: url("//buy-static.norton.com/norton/ps/images/mac/bg_pattern_mac.jpg") repeat scroll 0 0 #444444;
+}
+.product .desc {
+    height: 180px;
+}
+.product .desc {
+    -moz-box-sizing: border-box;
+    padding-right: 20px;
+}
+.product .desc, .product .pricing, .product .support {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.product .desc, .product .pricing, .product .support {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.product .support {
+    background: url("//buy-static.norton.com/norton/ps/images/mac/bg_pattern_mac_bar.png") repeat-x scroll center top rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 39px;
+    width: 100%;
+}
+.product .pricing {
+    
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.product .desc img {
+    left: 20px;
+    top: 20px;
+}.product .desc img.boxshadow {
+    display: none;
+    left: 2px;
+    position: absolute;
+    top: 201px;
+    z-index: 99;
+}
+.product .desc h1 {
+    color: #FFFFFF;
+    font-weight: normal;
+    margin: 20px 0 0 180px;
+}
+hr.carved {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: rgba(0, 0, 0, 0.2) -moz-use-text-color rgba(255, 255, 255, 0.2);
+    border-image: none;
+    border-left: 0 none;
+    border-right: 0 none;
+    border-style: solid none;
+    border-width: 1px 0;
+    height: 0;
+    margin: 0 15px 0 180px;
+}
+
+
+
+
+
+
